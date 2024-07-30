@@ -1,0 +1,19 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.collection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.standout{
+  
+  box-shadow: 0 0 5px rebeccapurple;
+}
+h1,h2,h3,h4,h5,h6,p{
+  text-align: center;
+}
+@media only screen and (max-width:600px){
+  .collection{
+    grid-template-columns: 1fr;
+  }
+}
